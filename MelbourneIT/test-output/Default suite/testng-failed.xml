@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="MIT_DomainRegistration.com.End_to_End_DomainRegistration_ExistingCU">
+        <methods>
+          <include name="Createacct"/>
+          <include name="domainregistration_ExistingCU"/>
+          <include name="cleanUP"/>
+        </methods>
+      </class> <!-- MIT_DomainRegistration.com.End_to_End_DomainRegistration_ExistingCU -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
